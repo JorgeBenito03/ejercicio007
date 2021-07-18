@@ -26,4 +26,15 @@ public class CocheService {
 		}
 		return potenciaFinal;
 	}
+
+	public void setMotorCombustionService(MotorCombustionService motorCombustionService) {
+		this.motorCombustionService = motorCombustionService;
+	}
+
+	public void setMotorElectricoService(MotorElectricoService motorElectricoService) {
+		this.motorElectricoService = motorElectricoService;
+	}
+	
+	
+	
 }
